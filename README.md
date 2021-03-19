@@ -34,3 +34,25 @@ Now you'll need to generate the required code (and font formats). For each font,
 5. Click Download your kit.
 
 After the generator has finished processing, you should get a ZIP file to download — save it in the same directory as your HTML and CSS.
+
+Implementing the code in your demo
+
+At this point, unzip the webfont kit you just generated. Inside the unzipped directory you'll see three useful items:
+
+- Multiple versions of each font: (for example .ttf, .woff, .woff2, etc.; the exact fonts provided will be updated over time as browser support requirements change). As mentioned above, multiple fonts are needed for cross browser support — this is Fontsquirrel's way of making sure you've got everything you need.
+
+- A demo HTML file for each font — load these in your browser to see what the font will look like in different usage contexts.
+
+- A stylesheet.css file, which contains the generated @font-face code you'll need.
+
+To implement these fonts in your demo, follow these steps:
+
+1. Rename the unzipped directory to something easy and simple, like fonts.
+
+2. Open up the stylesheet.css file and copy both the @font-face blocks contained inside into your web-font-start.css file — you need to put them at the very top, before any of your CSS, as the fonts need to be imported before you can use them on your site.
+
+3. Each of the url() functions points to a font file that we want to import into our CSS — we need to make sure the paths to the files are correct, so add fonts/ to the start of each path (adjust as necessary).
+
+4. Now you can use these fonts in your font stacks, just like any web safe or default system font. For example:
+
+font-family: 'zantrokeregular', serif;

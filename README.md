@@ -56,3 +56,5 @@ To implement these fonts in your demo, follow these steps:
 4. Now you can use these fonts in your font stacks, just like any web safe or default system font. For example:
 
 font-family: 'zantrokeregular', serif;
+
+Live web: https://gitthuma.github.io/a-web-font-example/

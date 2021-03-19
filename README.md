@@ -19,3 +19,18 @@ For this example, we'll use two web fonts, one for the headings, and one for the
 Let's find some fonts! Go to <a href="https://www.fontsquirrel.com/">Font Squirrel</a> and choose two fonts — a nice interesting font for the headings (maybe a nice display or slab serif font), and slightly less flashy and more readable font for the paragraphs. When you find each font, press on the download button, and save the file inside the same directory as the HTML and CSS files you saved earlier. It doesn't matter whether they are TTF (True Type Fonts) or OTF (Open Type Fonts).
 
 In each case, unzip the font package (Web fonts are usually distributed in ZIP files containing the font file(s) and licensing information). You may find multiple font files in the package — some fonts are distributed as a family with different variants available, for example thin, medium, bold, italic, thin italic, etc. For this example, we just want you to concern yourself with a single font file for each choice.
+
+Generating the required code
+
+Now you'll need to generate the required code (and font formats). For each font, follow these steps:
+
+1. Make sure you have satisfied any licensing requirement, if you are going to use this in a commercial and/or Web project.
+
+2. Go to the Fontsquirrel Webfont Generator.
+
+3. Upload your two font files using the Upload Fonts button.
+4. Check the checkbox labeled "Yes, the fonts I'm uploading are legally eligible for web embedding."
+
+5. Click Download your kit.
+
+After the generator has finished processing, you should get a ZIP file to download — save it in the same directory as your HTML and CSS.
